@@ -18,6 +18,14 @@ Scaffold({
             children: [
               Link({
                 child: Text({
+                  text: "- Generic strict privacy policy",
+                  color: "white",
+                }),
+                link: "./apps/generic_strict_policy.html",
+                openLink: OpenLink.thisTab,
+              }),
+              Link({
+                child: Text({
                   text: "- Raw Camera Privacy policy",
                   color: "white",
                 }),
